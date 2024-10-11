@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Search Results - Air Ticket Booking</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Car Booking</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                
+
+                <li><a href="/dashboard">Contact</a></li>
+                <li><a href="/register">Register</a></li>
+                <li><a href="/login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main-content">
+        <!-- Check if flights are available -->
+        <section class="result-section">
+            <h2>Available Slots</h2>
+
+            <div class="results">
+                <!-- Loop through each flight -->
+                <div class="result-card">
+                    <h3>Car Name Example</h3>
+                    <p>From: City A</p>
+                    <p>To: City B</p>
+                    <p>Price: $100</p>
+                    <button>Book Now</button>
+                </div>
+                <!-- Repeat for other flights -->
+            </div>
+        </section>
+        
+        <section class="no-results">
+            <h2>No Cars Found</h2>
+            <p>Sorry, no Cars match your search for City A to City B.</p>
+        </section>
+    </div>
+
+    <script src="/assets/js/scripts.js"></script> <!-- Optional: Add any scripts if needed -->
+</body>
+</html>
